@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .body{
-  background-image: url('https://ordinaryfaith.net/wp-content/uploads/2016/03/Gray-plain-website-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 
@@ -16,13 +16,13 @@
 .form {
   position: relative;
   z-index: 1;
-  background: #c99748;
+  background: gainsboro;
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(159, 42, 42, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-  
+  border-radius: 15px;
 }
 .form input  {
   font-family: FontAwesome, "Roboto", sans-serif;
@@ -60,12 +60,13 @@ select::-ms-expand {
 .select {
   position: relative;
   display: flex;
-  width: 15em;
+  width: 17em;
   height: 3em;
   line-height: 3;
   background: #85b816;
   overflow: hidden;
   border-radius: .25em;
+  margin-bottom: 15px;
 }
 .select::after {
   content: '\25BC';
@@ -105,8 +106,9 @@ border-radius:30px;
    box-shadow: 0 5px 10px rgba(243, 255, 23, 0.2);
   transform: translateY(-4px);
 }
-
-
+#format{
+    width: 100%;
+}
 
 
 
