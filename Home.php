@@ -14,7 +14,7 @@
       <header class="header">
         <img src="logo.png" alt="logo-uca" class="logoNavBar" />
         <div class="headerBtnGroup">
-          <button class="navBtn">Se connecter</button>
+          <a href="login.php"><button class="navBtn">Se connecter</button></a>
           <button class="navBtn">A propos</button>
         </div>
         </header>
