@@ -15,11 +15,46 @@
         <img src="logo.png" alt="logo-uca" class="logoNavBar" />
         <div class="headerBtnGroup">
           <button class="navBtn">Se connecter</button>
-          <button class="navBtn">Admin</button>
           <button class="navBtn">A propos</button>
         </div>
-      </header>
-      <marquee><p class="sectionTittle" id="backToTop">uca</p></>
+        </header>
+<div id="div12">
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="slide.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="slide.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="slide.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+     <p class="sectionTittle" id="backToTop">Actualités du sport</p>
       <p class="sectionDescription">
         Aqui é onde você encontra todos os itens mais novos e modernos do seu
         esporte preferido
@@ -148,14 +183,16 @@
           </div>
         </div>
       </section>
+</div>
       <footer class="footer">
         <img
-          src="./logo-onebitcode.svg"
+          src="logo.png"
           alt="logo-onebitcode"
           class="logoFooter"
         />
-        <a href="#backToTop" class="footerAnchor">VOLTAR PARA O TOPO</a>
+        <a href="#backToTop" class="footerAnchor">&copy 2023 Universite cadi ayyad. Tous droits réservés</a>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
