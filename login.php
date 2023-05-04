@@ -33,8 +33,8 @@
                  <option value="txt">SuperAdmin</option>
               </select>
            </div>
-            <input type="text" placeholder="full name" />
-            <input type="password" id="password" placeholder=" password" />
+            <input type="text" placeholder="Username" />
+            <input type="password" id="password" placeholder="mot de passe" />
             <i class="fas fa-eye" onclick="show()"></i>
             <br>
             <br>
@@ -42,7 +42,7 @@
 
           <form class="login-form">
             <button type="button" onclick="window.location.href='login.html'">
-              SIGN UP
+              Se connecter
             </button>
           </form>
         </div>
